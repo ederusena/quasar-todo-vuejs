@@ -38,7 +38,7 @@
           <q-item-section>
             <q-btn
               flat
-              round
+              rounded
               icon="mdi-plus"
             />
           </q-item-section>
