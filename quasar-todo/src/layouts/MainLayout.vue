@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Todon't list
         </q-toolbar-title>
 
         <q-btn
@@ -35,12 +35,27 @@
             Lists
           </q-item-section>
 
-          <q-item-section>
+          <q-item-section side>
             <q-btn
               flat
+              size="sm"
               round
               icon="mdi-plus"
             />
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable>
+          <q-item-section side>
+            <q-icon name="mdi-shopping" />
+          </q-item-section>
+
+          <q-item-section>
+            Shopping
+          </q-item-section>
+
+          <q-item-section side>
+            12
           </q-item-section>
         </q-item>
       </q-list>

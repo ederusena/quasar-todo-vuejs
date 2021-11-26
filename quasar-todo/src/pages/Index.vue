@@ -52,7 +52,10 @@
       </q-list>
     </q-card>
 
-    <q-card class="col-xs-3">
+    <q-card
+      class="col-xs-3"
+      square
+    >
       <q-toolbar class="bg-primary">
         <q-btn
           fab
