@@ -28,37 +28,7 @@
       show-if-above
       bordered
     >
-      <q-list>
-        <q-toolbar class="bg-primary" />
-        <q-item class="bg-grey-3">
-          <q-item-section>
-            Lists
-          </q-item-section>
-
-          <q-item-section side>
-            <q-btn
-              flat
-              size="sm"
-              round
-              icon="mdi-plus"
-            />
-          </q-item-section>
-        </q-item>
-
-        <q-item clickable>
-          <q-item-section side>
-            <q-icon name="mdi-shopping" />
-          </q-item-section>
-
-          <q-item-section>
-            Shopping
-          </q-item-section>
-
-          <q-item-section side>
-            12
-          </q-item-section>
-        </q-item>
-      </q-list>
+      <TodoListsList />
     </q-drawer>
 
     <q-page-container>
@@ -69,11 +39,13 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
+import TodoListsList from 'components/TodoListsList.vue'
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
+    TodoListsList
   },
 
   setup () {
